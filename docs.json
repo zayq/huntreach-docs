@@ -1,102 +1,93 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "HuntReach",
+  "theme": "maple",
+  "logo": {
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo.png",
+  "colors": {
+    "primary": "#2562ea",
+    "light": "#2562ea",
+    "dark": "#2562ea"
+  },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
+        "language": "en",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Quick Start",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "/en/docs"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Email Servers",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "en/emails/connect-email-servers",
+              "en/emails/bulk",
+              "en/emails/google",
+              "en/emails/microsoft"
+            ]
+          },
+          {
+            "group": "Lists",
+            "pages": [
+              "en/lists/create",
+              "en/lists/tags"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "language": "fr",
+        "pages": [
+          "/fr/docs"
+        ],
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Démarrage rapide",
             "pages": [
-              "api-reference/introduction"
+              "/fr/docs"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Serveurs Mail",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "fr/emails/connect-email-servers",
+              "fr/emails/bulk",
+              "fr/emails/google",
+              "fr/emails/microsoft"
+            ]
+          },
+          {
+            "group": "Listes",
+            "pages": [
+              "fr/lists/create",
+              "fr/lists/tags"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Dashboard",
+        "href": "https://app.huntreach.com/dashboard"
+      },
+      {
+        "label": "Contact us",
+        "href": "mailto:leo@huntreach.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/huntreach"
     }
   }
 }
